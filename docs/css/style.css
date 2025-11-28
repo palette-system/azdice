@@ -161,6 +161,27 @@ header #logo img {
 	background-color: #888;
 }
 
+.list_btn {
+	margin-bottom: 20px;
+	clear: both;
+	padding: 0 20px;
+	font-size: 18px;		/*文字サイズ*/
+	text-align: center;		/*文字をセンタリング*/
+	letter-spacing: 0.1em;	/*文字間隔を少しだけ広くする指定*/
+	border: 2px solid #222;	/*枠線の幅、線種、色*/
+	border-radius: 100px;	/*角を丸くする指定。大きめであれば適当で構いません。*/
+	background-color: #fff;
+	cursor: pointer;
+	height: 42px;
+	line-height: 42px;
+	display: inline-block;
+	width: 300px;
+}
+
+.list_btn:hover {
+	background-color: #888;
+}
+
 .content_body {
 	padding: 0 40px;
 }
