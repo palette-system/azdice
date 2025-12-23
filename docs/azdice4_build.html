@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>AZDICE4 インフォメーション</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css?2">
+<script src="./js/fixmenu_pagetop.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/enc-base64.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.min.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+
+$(function(){
+
+
+});
+
+
+</script>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="contents">
+
+<section id="new">
+
+<h2>必要な物</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    ・ボンド　
+    ・マスキングテープ　
+    ・ニッパー　
+    ・ヤスリ　
+    ・はんだごて　
+    ・つまようじもあると便利
+    </div><br>
+
+    <img src="./img/azdice_4/build_00.jpg"><br>
+
+    <br><br>
+    <div style="text-align: left;">
+    ・Seeed XIAO BLE nRF52840 × 1個　
+    ・アルプス14mm スイッチ × 4個
+    </div><br>
+    <img src="./img/azdice_4/build_02.jpg"><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>入っている物</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    ・PCB×1　
+    ・ボトムプレート×1　
+    ・ミドルプレート×1　
+    ・トッププレート×1　
+    ・電池ホルダー×1　
+    ・スライドスイッチ×1　
+    ・ピンヘッダ×2　
+    ・輪ゴム×1
+    </div><br>
+
+    <img src="./img/azdice_4/build_01.jpg"><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>１．PCBのカット</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    PCBを手で折って、ニッパーやヤスリで切り口を綺麗にします。
+    </div><br>
+    <img src="./img/azdice_4/build_03.jpg"><br><br>
+    <img src="./img/azdice_4/build_04.jpg"><br><br>
+    <img src="./img/azdice_4/build_05.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>２．ピンヘッダのカット</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    ピンヘッダの短い方を1mmくらい残してカットします。
+    </div><br>
+    <img src="./img/azdice_4/build_06.jpg"><br><br>
+    <img src="./img/azdice_4/build_07.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+<h2>３．ピンヘッダのはんだ付け</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    PCBの裏にピンヘッダを立てます。
+    </div><br>
+    <img src="./img/azdice_4/build_08.jpg"><br><br>
+    <div style="text-align: left;">
+    XIAOを乗せてゴムでとめます。
+    </div><br>
+    <img src="./img/azdice_4/build_09.jpg"><br><br>
+    <img src="./img/azdice_4/build_10.jpg"><br><br>
+    <img src="./img/azdice_4/build_11.jpg"><br><br>
+    <div style="text-align: left;">
+    4つ端をはんだ付けして固定します。
+    </div><br>
+    <img src="./img/azdice_4/build_12.jpg"><br><br>
+    <div style="text-align: left;">
+    ゴムを外して全てのピンをはんだ付けします。<br>
+    出っ張りができないようにはんだ付けして下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_13.jpg"><br><br>
+    <img src="./img/azdice_4/build_14.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>４．スイッチのカット</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    スイッチの足と固定用のプラスチック部分を1mmくらい残してカットします。<br>
+    4個全てのスイッチを同様にカットして下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_15.jpg"><br><br>
+    <img src="./img/azdice_4/build_16.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>５．スイッチのはんだ付け</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    スイッチを固定してマスキングテープでとめます。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_17.jpg"><br><br>
+    <img src="./img/azdice_4/build_18.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    裏面からピンが出っ張らないようにはんだ付けします。<br>
+    ピンが長すぎた場合は出っ張りができないようピンを短くカットして下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_19.jpg"><br><br>
+    <img src="./img/azdice_4/build_20.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    同様に4個全てのスイッチをはんだ付けします。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_21.jpg"><br><br>
+    <img src="./img/azdice_4/build_22.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>６．スライドスイッチのカット</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    スライドスイッチの足を1mmくらい残してカットします。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_23.jpg"><br><br>
+    <img src="./img/azdice_4/build_24.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>７．スライドスイッチのはんだ付け</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    裏面にスライドスイッチを置いて、後ろ側2か所をはんだ付けします。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_25.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    表面から前側1か所をはんだ付けします。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_26.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>８．XIAOのはんだ付け</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    裏面にXIAOを置いて、ピンヘッダの出っ張ってる部分をカットします。<br>
+    出っ張りができないようにカットして下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_27.jpg"><br><br>
+    <img src="./img/azdice_4/build_28.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    ピンヘッダとXIAOをはんだ付けします。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_29.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>９．電池ホルダーのはんだ付け</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    電池ホルダーの足を1mmくらい残してカットします。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_30.jpg"><br><br>
+    <img src="./img/azdice_4/build_31.jpg"><br><br>
+    <img src="./img/azdice_4/build_32.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    PCBの裏面に電池ホルダーを置いて両端をはんだ付けして下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_33.jpg"><br><br>
+    <img src="./img/azdice_4/build_34.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>１０．ファームウェアの書き込み</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    XIAOをPCに接続して、下記リンク先を参考にファームウェアを書き込んでキーボードとして動作する事を確認して下さい。<br>
+    <br>
+    <a class="list_btn" href="https://palette-system.github.io/azk/nrf52840.html" target="_blank">ファームウェア書込</a><br>
+
+    </div><br>
+    <img src="./img/azdice_4/build_35.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>１１．プレートの仮止め</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    使用するプレートの保護シートを剥がします。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_36.jpg"><br><br>
+    <img src="./img/azdice_4/build_37.jpg"><br><br>
+    <img src="./img/azdice_4/build_38.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    裏面にミドルプレートを重ねます。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_39.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    ミドルプレートの上にボトムプレートを重ねます。<br>
+    ※透明にしたい場合はアクリルのボトムプレートを重ねて下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_40.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    表面にしてトッププレートを重ねます。<br>
+    XIAOのリセットボタンを押す用の穴があるので向きに気を付けて下さい。<br>
+    ※透明にしたい場合はアクリルのトッププレートを重ねて下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_41.jpg"><br><br>
+    <img src="./img/azdice_4/build_42.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    マスキングテープで左右を止めて下さい。<br>
+    </div><br>
+    <img src="./img/azdice_4/build_43.jpg"><br><br>
+    <img src="./img/azdice_4/build_44.jpg"><br><br>
+    <img src="./img/azdice_4/build_45.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<h2>１２．プレートの固定</h2>
+<div class="content_body">
+<br>
+<div style='text-align: center;'>
+    <div style="text-align: left;">
+    上側、下側の側面にボンドを乗せ、つまようじなどで伸ばして下さい。<br>
+    <br>
+    </div><br>
+    <img src="./img/azdice_4/build_46.jpg"><br><br>
+    <img src="./img/azdice_4/build_47.jpg"><br><br>
+    <img src="./img/azdice_4/build_48.jpg"><br><br>
+    <img src="./img/azdice_4/build_49.jpg"><br><br>
+    <img src="./img/azdice_4/build_50.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    そのままボンドが透明になるまで数時間置いて乾かして下さい。<br>
+    ドライヤーなどで乾かすと短い時間で乾きます。<br>
+    <br>
+    </div><br>
+    <img src="./img/azdice_4/build_51.jpg"><br><br>
+    <img src="./img/azdice_4/build_52.jpg"><br><br>
+    <img src="./img/azdice_4/build_53.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    乾いたらマスキングテープを剥がして、残りの側面もボンドで固めて乾かして下さい。<br>
+    <br>
+    </div><br>
+    <img src="./img/azdice_4/build_54.jpg"><br><br>
+    <img src="./img/azdice_4/build_55.jpg"><br><br>
+    <br><br>
+    <div style="text-align: left;">
+    乾いたら完成です。<br>
+    <br>
+    </div><br>
+    <img src="./img/azdice_4/azdice_4_main.jpg"><br><br>
+    <br><br>
+</div>
+</div>
+
+
+<div style='margin: 140px 0 0 0; text-align: center;'>
+<img style='width: 147px; height: 147px;' src='./img/logo2.png' alt='パレットシステム'>
+</div>
+
+
+</section>
+<!--/#new-->
+
+
+
+<!--ページの上部に戻る「↑」ボタン-->
+<!-- <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p> -->
+
+</div>
+</div>
+
+</body>
+</html>
